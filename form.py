@@ -6,3 +6,4 @@ class SignupForm(FlaskForm):
     email = EmailField('email')
     Message = StringField('Message')
     submit = SubmitField('submit')
+    recaptcha = BooleanField('recaptcha')
